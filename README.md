@@ -1,8 +1,8 @@
-# Coral
+# Nest
 
-A Bower registry for Steel Thread project
+Your own Bower Registry
 
-[View all packages in coral](http://coralreef.herokuapp.com)
+[DEMO](http://coralreef.herokuapp.com)
 
 ## What Is Bower
 
@@ -65,12 +65,12 @@ bower register <my-package-name> <git-endpoint>
 
 ### Registering packages via commandline
 ```bash
-curl http://coralreef.herokuapp.com/packages -v -F 'name=jquery' -F 'url=git://github.com/jquery/jquery.git'
+curl http://[host]/packages -v -F 'name=jquery' -F 'url=git://github.com/jquery/jquery.git'
 ```
 
 ### Find package
 ```bash
-curl http://coralreef.herokuapp.com/packages/jquery
+curl http://[host]/packages/jquery
 ```
 Response
 ```json
