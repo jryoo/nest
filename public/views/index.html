@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Nest</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.1/pure-min.css">
+        <link rel='stylesheet' href='/css/pure.css'></link>
+        <link rel='stylesheet' href='/css/main.css'></link>
+
+        <script src="/js/main.js"></script>
+
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 class="title">Coral</h1>
+                <p class="subtitle">Bower Registry</p>
+                <br>
+                <a class="pure-button" href="https://github.com/jryoo/nest">View on Github</a>
+            </div>
+            <form id="form-add-package" class="pure-skin-coral pure-form">
+                <fieldset>
+                    <legend>Add a package</legend>
+                    <input type="text" name="package_name" placeholder="Name" required>
+                    <input type="text" name="package_url" placeholder="URL" required>
+                    <button type="submit" class="pure-skin-coral pure-button pure-button-primary button-small">Add</button>
+                </fieldset>
+            </form>
+
+            <div id="packages">
+                <h3 class="title-packages">Packages</h3>
+                <table id="table-packages" class="pure-table pure-table-horizontal package-table">
+                    <thead>
+                        <tr>
+                            <th>Name</a></th>
+                            <th>URL</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-packages-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script>
+
+    </script>
+</html>
